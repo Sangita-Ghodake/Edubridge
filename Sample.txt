@@ -1,0 +1,25 @@
+package staticpackage;
+
+public class StaticExample2 {
+	
+	String message;
+	
+	static void displayMessage()
+	{
+		new StaticExample2().message="Hello";
+		System.out.println("welcome to static method");
+	}
+
+	static
+	{
+		System.out.println("Hello Welcome to static");
+	}
+	
+public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	
+	//classname.staticmethodname
+	StaticExample2.displayMessage();
+	
+	}
+}
